@@ -1,0 +1,20 @@
+body {
+    margin: 2;
+    height: 2;
+    background-color: antiquewhite;
+}
+
+pre {
+    white-space: pre;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    overflow: auto !important;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 7px;
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    margin-bottom: 2.4rem;
+}

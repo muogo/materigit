@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="controler">
+        <h1>Cara Menggunakan Github & <br> Perinta Dasar Github</h1>
+        <img src="img/git.jpg" alt="git" width="700px" height="400px">
+    </div>
+
+    <div>
+        <h2>Pengenalan</h2>
+        <p>Jika kita berbicara tentang version control system, maka ada banyak sekali GIT yang bagus, baik dari sisi relevansi maupun performa.<br> GIT dikembangkan oleh pengembang UNIX, Linus Torvalds, pada tahun 2005 dan hari ini telah digunakan oleh <br>jutaan
+            perusahaan untuk melakukan manajemen efisiensi kode dan <br>kontrol versi untuk project mereka. Software ini bersifat open source dan bisa di-download untuk Linux, Windows, Solaris dan Mac. <br>Informasi lebih lengkap tentang GIT bisa Anda
+            temukan disini. Dalam tutorial ini, kita akan banyak membahas tentang perintah GIT.</p>
+    </div>
+    <div>
+        <h2>Apa Itu Git</h2>
+        <p>Secara singkat, Git adalah tools atau control system yang gratis dan dapat digunakan oleh programmer dan developer untuk menjalankan <br>sebuah proyek kecil maupun besar. Untuk benar-benar mengerti apa itu Git, kamu perlu mengetahui tentang control<br>            system, vesion control system, dan distribution version control system terlebih dahulu. </p>
+
+    </div>
+
+    <div>
+        <h2>Perinta Dasar Github</h2>
+        <ul>
+            <li>git confing</li>
+            <p>Salah satu perintah git yang paling banyak digunakan adalah git config, yang bisa digunakan untuk mengatur konfigurasi tertentu<br> sesuai keinginan pengguna, seperti email, algoritma untuk diff, username, format file, dll. Contohnya, perintah<br>berikut
+                bisa digunakan untuk mengatur email:</p>
+            <pre class="lang:default decode:true">git config --global user.name "nama github"</pre>
+
+            <li>git init</li>
+            <p>Perintah ini digunakan untuk membuat repositori baru. Caranya:</p>
+            <pre class="lang:default decode:true">git init"</pre>
+
+            <li>git add</li>
+            <p>Perintah git add bisa digunakan untuk menambahkan file ke index. Contohnya, perintah berikut ii akan menambahkan file bernama temp.<br>txt yang ada di direktori lokal ke index:</p>
+            <pre class="lang:default decode:true">git add temt.txt"</pre>
+
+            <li>git clone</li>
+            <p>Perinta Git clone Digunakan Untuk Checkout Repository. dan repositori berada di remove server, gunakan</p>
+            <pre class="lang:default decode:true">git clone alex@93.188.160.58:/path/to/repository"</pre>
+            <p>jika salinan repository lokal ingin dibuat, gunakan</p>
+            <pre class="lang:default decode:true">git clone /path/to/repository"</pre>
+
+            <li>git commit</li>
+            <p>Perintah git commit digunakan untuk melakukan commit pada perubahan ke head. Ingat bahwa perubahan apapun yang di-commit tidak akan <br>langsung ke remote repository. Gunakan:</p>
+            <pre class="lang:default decode:true">git commit –m "Isi dengan keterangan untuk commit"</pre>
+
+            <li>git status</li>
+            <p>Perintah git status menampilkan daftar file yang berubah bersama dengan file yang ingin di tambahkan atau di-commit. Gunakan:</p>
+            <pre class="lang:default decode:true">git status"</pre>
+
+            <li>git push</li>
+            <p>git push adalah perintah git dasar lainnya. Push akan mengirimkan perubahan ke master branch dari remote repository yang berhubungan <br>dengan direktori kerja Anda. Misalnya:</p>
+            <pre class="lang:default decode:true">git push origin master"</pre>
+
+            <li>git Checkout</li>
+            <p>Perintah git checkout bisa digunakan untuk membuat branch atau untuk berpindah diantaranya. Misalnya, perintah berikut ini akan membuat <br>branch baru dan berpindah ke dalamnya:</p>
+            <pre class="lang:default decode:true">command git checkout -b nama-branch </pre>
+            <p>Untuk berpindah dari branch satu ke lainnya, gunakan:</p>
+            <pre class="lang:default decode:true">git checkout branch-name </pre>
+
+            <li>git remote</li>
+            <p>Perintah git remote akan membuat user terhubung ke remote repository. Perintah berikut ini akan menampilkan repository yang sedang dikonfigurasi:</p>
+            <pre class="lang:default decode:true">git rmote -v</pre>
+
+            <p>Perintah ini membuat user bisa menghubungkan repository lokal ke remote server:</p>
+            <pre class="lang:default decode:true">git remote add origin  </pre>
+
+            <li>git branch</li>
+            <p>Perintah git branch bisa digunakan untuk me-list, membuat atau menghapus branch. Untuk menampilkan semua branch yang ada di repository, gunakan:</p>
+            <pre class="lang:default decode:true">git branch</pre>
+            <p>Untuk menghapus branch</p>
+            <pre class="lang:default decode:true">git branch -d (nama branch)</pre>
+
+            <li>git pull</li>
+            <p>Untuk menggabungkan semua perubahan yang ada di remote repository ke direktori lokal, gunakan perintah pull:</p>
+            <pre class="lang:default decode:true">git pull</pre>
+
+            <li>git rm</li>
+            <p>Gunakan perintah ini untuk menghapus file dari index dan direktori kerja. Contohnya:</p>
+            <pre class="lang:default decode:true">git rm filename.txt</pre>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
